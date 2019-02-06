@@ -1,0 +1,444 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+a{
+    color: #777;
+    text-decoration: none;
+}
+li a:hover{
+    color: #4aaaa5;
+}
+#hline{
+    border-bottom: 2px solid #ccc;
+    margin: 10px 0 10px 0;
+}
+#hborder{
+    border: 1px solid #ddd;
+}
+#bborder{
+    border: 1px inset #ddd;
+    margin-top: 50px;
+    background: white;
+    margin-bottom: auto;
+    border-radius: 3px;
+}
+
+#about{
+    font-family: Arial, Helvetica, 'Helvetica-Neue' sans-serif;
+    color: #777;
+    background: #fff;
+    line-height: 150%;
+}
+
+#fpic{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    vertical-align: bottom;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+}
+footer{
+    width: 100%;
+    color: #ddd;
+    font-size: 15px;
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    border-top: 5px #4aaaa5 solid;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 75px;
+    background: #666;
+}
+body{
+    background-image: url("../images/palm-leaf.png");
+    background-repeat: repeat;
+    position: relative;
+    padding-bottom: 100px;
+    min-height: 100%;
+    margin: auto;
+    margin-top: 0;
+}
+.inputbox{
+    width: 100%;
+    height: 25px;
+    font-family: Arial, Helvetica, 'Helvetica-Neue' sans-serif;
+    color: #4aaaa5;
+    border: 1px darkgrey inset;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.textbox{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #4aaaa5;
+    font-family: Arial, Helvetica, 'Helvetica-Neue' sans-serif;
+    text-align: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    border-radius: 3px;
+}
+#send{
+    width: 100px;
+    height: 30px;
+    border: inset 1px darkgray;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 20px;
+    vertical-align: center;
+    color: #4aaaa5;
+    border-radius: 3px;
+}
+input[type=submit]:hover{
+    cursor: crosshair;
+    background: lightgrey;
+}
+#portfolio{
+    padding: 50px;
+    text-align: center;
+}
+
+
+table{
+    width:100%;
+}
+td{
+    padding: 20px;
+}
+#wbg{
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+form{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media (min-width: 640px) {
+    header{
+        background: #4aaaa5;
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 20px;
+        font-weight: bolder;
+        float: left;
+        margin-left: 0;
+    }
+    li{
+        float: none;
+        display: inline;
+        padding: 10px;
+    }
+    ul{
+        list-style-type: none;
+        overflow: hidden;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto 0 auto;
+        font-family: 'KoHo', sans-serif;
+        text-align: center;
+    }
+    .wrapper{
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 578px;
+        min-height: 100%;
+    }
+    .bwrapper{
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 578px;
+        padding-right: 30px;
+        padding-left: 30px;
+        min-height: 100%;
+    }
+    h1{
+        color: #4aaaa5;
+        background: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #mypic{
+        width: 510px;
+        height: 510px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        border: inset 1px lightgrey;
+        float: none;
+    }
+    .portlink{
+        position: relative;
+        text-align: center;
+        padding: 20px;
+        display: block;
+    }
+    #contact{
+        font-family: Arial, Helvetica, 'Helvetica-Neue' sans-serif;
+        color: #777;
+        background: #fff;
+        line-height: 1;
+        text-align: left;
+        padding-left : auto;
+        padding-right: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 20px;
+    }
+    #portpic{
+        width: 300px;
+        height: 300px;
+        border: inset 2px lightgray;
+        border-radius: 10px;
+    }
+    #label{
+        width: 300px;
+        height: 50px;
+        color: whitesmoke;
+        background: #4aaaa5;
+        opacity: 0.9;
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translate(-50%);
+        font-family: 'KoHo', sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: bolder;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    header{
+        background: #4aaaa5;
+        color: white;
+        width: 250px;
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 20px;
+        font-weight: bolder;
+        float: left;
+        margin-top: -20px;
+    }
+    li{
+        float: none;
+        display: inline;
+        padding: 10px;
+    }
+    ul{
+        list-style-type: none;
+        overflow: hidden;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0 auto 0 auto;
+        font-family: 'KoHo', sans-serif;
+        text-align: right;
+    }
+    .wrapper{
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 753px;
+        min-height: 100%;
+    }
+    .bwrapper{
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 753px;
+        padding-right: 30px;
+        padding-left: 30px;
+        min-height: 100%;
+    }
+    h1{
+        color: #4aaaa5;
+        background: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #mypic{
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        border: inset 1px lightgrey;
+        float: left;
+    }
+    .portlink{
+        position: relative;
+        text-align: center;
+        padding: 20px;
+        display: inline;
+    }
+    #contact{
+        font-family: Arial, Helvetica, 'Helvetica-Neue' sans-serif;
+        color: #777;
+        background: #fff;
+        line-height: 1;
+        text-align: left;
+        margin-left : auto;
+        margin-right: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 20px;
+    }
+    #portpic{
+        width: 200px;
+        height: 200px;
+        border: inset 2px lightgray;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    #label{
+        width: 200px;
+        height: 40px;
+        color: whitesmoke;
+        background: #4aaaa5;
+        opacity: 0.9;
+        position: absolute;
+        top: 70px;
+        left: 130px;
+        transform: translate(-50%);
+        font-family: 'KoHo', sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: bolder;
+    }
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 980px) {
+    header{
+        background: #4aaaa5;
+        color: white;
+        width: 250px;
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 20px;
+        font-weight: bolder;
+        float: left;
+        margin-top: -20px;
+    }
+    li{
+        float: none;
+        display: inline;
+        padding: 10px;
+    }
+    ul{
+        list-style-type: none;
+        overflow: hidden;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0 auto 0 auto;
+        font-family: 'KoHo', sans-serif;
+        text-align: right;
+    }
+    .wrapper{
+        margin-right: auto;
+        margin-left: 50px;
+        max-width: 900px;
+        min-height: 100%;
+    }
+    .bwrapper{
+        margin-right: 0;
+        margin-left: 50px;
+        max-width: 650px;
+        padding-right: 30px;
+        padding-left: 30px;
+        min-height: 100%;
+    }
+    h1{
+        color: #4aaaa5;
+        background: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #mypic{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        border: inset 1px lightgrey;
+        float: left;
+    }
+    .portlink{
+        position: relative;
+        text-align: center;
+        padding: 20px;
+        display: inline;
+    }
+    #contact{
+        font-family: Arial, Helvetica, 'Helvetica-Neue' sans-serif;
+        color: #777;
+        background: #fff;
+        line-height: 1;
+        text-align: left;
+        margin-left : auto;
+        margin-right: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 20px;
+    }
+    #portpic{
+        width: 200px;
+        height: 200px;
+        border: inset 2px lightgray;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    #label{
+        width: 200px;
+        height: 40px;
+        color: whitesmoke;
+        background: #4aaaa5;
+        opacity: 0.9;
+        position: absolute;
+        top: 70px;
+        right: 50px;
+        transform: translate(-100px);
+        font-family: 'KoHo', sans-serif;
+        font-size: 20px;
+        margin: 0px;
+        font-weight: bolder;
+    }
+    
+}
